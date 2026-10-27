@@ -2,7 +2,7 @@
 
 An interactive visualizer for the stack data structure, built around the classic stack-of-plates analogy. Push a plate onto the top, pop the top plate off, and peek at what's next.
 
-**Live site:** _Deploying to Vercel_
+**Live site:** https://stack-of-plates.vercel.app/
 
 ## What it does
 
@@ -60,10 +60,10 @@ Then visit `http://localhost:8771`.
 
 ## Deployment
 
-The site is static HTML, CSS, and JavaScript with no build step. It is hosted on Vercel.
+The site is static HTML, CSS, and JavaScript with no build step. It is hosted on Vercel at **https://stack-of-plates.vercel.app/**.
+
+The Vercel project is connected to the GitHub repository, so pushes to `main` deploy to production automatically. To deploy manually:
 
 ```powershell
 npx vercel --prod
 ```
-
-When prompted, link the project to the repository and deploy. Vercel serves `index.html` at the project root and provides a public `*.vercel.app` URL.
