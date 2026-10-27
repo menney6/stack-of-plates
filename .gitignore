@@ -1,0 +1,6 @@
+# Local previews and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
